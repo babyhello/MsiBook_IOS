@@ -13,6 +13,7 @@ class Notice_ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //gg
         
         
         
