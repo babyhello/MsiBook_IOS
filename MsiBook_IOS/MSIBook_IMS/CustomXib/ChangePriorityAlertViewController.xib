@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="VPq-Ij-keN">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yFF-9u-dGy">
+                    <rect key="frame" x="147" y="35" width="80" height="80"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="XQB-x7-5Tb"/>
+                        <constraint firstAttribute="width" constant="80" id="fga-oV-qMd"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="btn_change_prioP2_nor"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Fp-Yb-5XW">
+                    <rect key="frame" x="40" y="35" width="80" height="80"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="17T-a7-9Wf"/>
+                        <constraint firstAttribute="height" constant="80" id="7Uo-fh-NUP"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="btn_change_prioP1_nor"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SXx-UB-Dvr">
+                    <rect key="frame" x="255" y="35" width="80" height="80"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="V6i-2T-pp2"/>
+                        <constraint firstAttribute="width" constant="80" id="WlW-kL-tuG"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="btn_change_prioP3_nor"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Change Priority" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IIh-hj-fX5">
+                    <rect key="frame" x="10" y="10" width="325" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.89411764709999997" green="0.90588235289999997" blue="0.91372549020000005" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="yFF-9u-dGy" firstAttribute="height" secondItem="8Fp-Yb-5XW" secondAttribute="height" id="2re-By-UbK"/>
+                <constraint firstItem="SXx-UB-Dvr" firstAttribute="top" secondItem="VPq-Ij-keN" secondAttribute="top" constant="35" id="DzO-gP-ndF"/>
+                <constraint firstItem="IIh-hj-fX5" firstAttribute="leading" secondItem="VPq-Ij-keN" secondAttribute="leading" constant="10" id="Ksm-TL-fQ0"/>
+                <constraint firstItem="SXx-UB-Dvr" firstAttribute="top" secondItem="8Fp-Yb-5XW" secondAttribute="top" id="NE1-2c-gHf"/>
+                <constraint firstItem="yFF-9u-dGy" firstAttribute="width" secondItem="8Fp-Yb-5XW" secondAttribute="width" id="R5i-Cz-0Vm"/>
+                <constraint firstItem="8Fp-Yb-5XW" firstAttribute="leading" secondItem="VPq-Ij-keN" secondAttribute="leading" constant="40" id="TST-2a-shp"/>
+                <constraint firstItem="SXx-UB-Dvr" firstAttribute="top" secondItem="yFF-9u-dGy" secondAttribute="top" id="TY7-9d-3Tm"/>
+                <constraint firstItem="SXx-UB-Dvr" firstAttribute="leading" secondItem="yFF-9u-dGy" secondAttribute="trailing" constant="28" id="ac3-83-qC7"/>
+                <constraint firstItem="SXx-UB-Dvr" firstAttribute="height" secondItem="8Fp-Yb-5XW" secondAttribute="height" id="dBj-8G-LHL"/>
+                <constraint firstItem="SXx-UB-Dvr" firstAttribute="width" secondItem="8Fp-Yb-5XW" secondAttribute="width" id="eBK-1e-Geb"/>
+                <constraint firstAttribute="trailing" secondItem="SXx-UB-Dvr" secondAttribute="trailing" constant="40" id="eT2-hd-a0D"/>
+                <constraint firstItem="IIh-hj-fX5" firstAttribute="top" secondItem="VPq-Ij-keN" secondAttribute="top" constant="10" id="emZ-0R-HzH"/>
+                <constraint firstAttribute="trailing" secondItem="IIh-hj-fX5" secondAttribute="trailing" constant="40" id="vNk-l5-Dmn"/>
+                <constraint firstItem="yFF-9u-dGy" firstAttribute="leading" secondItem="8Fp-Yb-5XW" secondAttribute="trailing" constant="27" id="wh0-Wq-ND9"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="WxR-e9-Zr5"/>
+            <point key="canvasLocation" x="34.5" y="53.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="btn_change_prioP1_nor" width="110" height="110"/>
+        <image name="btn_change_prioP2_nor" width="110" height="110"/>
+        <image name="btn_change_prioP3_nor" width="110" height="110"/>
+    </resources>
+</document>

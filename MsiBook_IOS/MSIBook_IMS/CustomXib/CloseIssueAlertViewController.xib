@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="jf0-Eq-pQG">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vMR-Yl-xqm">
+                    <rect key="frame" x="147" y="35" width="80" height="80"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="acg-FC-Mru"/>
+                        <constraint firstAttribute="width" constant="80" id="f8c-us-irs"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="btn_closeissue_fixe_nor"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zWB-dz-oF2">
+                    <rect key="frame" x="40" y="35" width="80" height="80"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="tFM-pg-96r"/>
+                        <constraint firstAttribute="height" constant="80" id="wkU-UJ-oO5"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="btn_closeissue_limit_nor"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gx3-g2-2Hk">
+                    <rect key="frame" x="255" y="35" width="80" height="80"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="X3Y-Yy-QM1"/>
+                        <constraint firstAttribute="height" constant="80" id="z7Z-02-bv7"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="btn_closeissue_waive_nor"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Close Issue" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i8S-Fe-qUr">
+                    <rect key="frame" x="10" y="10" width="325" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.89411764709999997" green="0.90588235289999997" blue="0.91372549020000005" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Gx3-g2-2Hk" firstAttribute="leading" secondItem="vMR-Yl-xqm" secondAttribute="trailing" constant="28" id="0ax-JK-Y9z"/>
+                <constraint firstItem="i8S-Fe-qUr" firstAttribute="leading" secondItem="jf0-Eq-pQG" secondAttribute="leading" constant="10" id="3IF-4P-QuW"/>
+                <constraint firstItem="vMR-Yl-xqm" firstAttribute="height" secondItem="zWB-dz-oF2" secondAttribute="height" id="3gt-YR-1J5"/>
+                <constraint firstItem="i8S-Fe-qUr" firstAttribute="top" secondItem="jf0-Eq-pQG" secondAttribute="top" constant="10" id="824-Mn-fL4"/>
+                <constraint firstItem="zWB-dz-oF2" firstAttribute="leading" secondItem="jf0-Eq-pQG" secondAttribute="leading" constant="40" id="EYB-at-QuX"/>
+                <constraint firstItem="Gx3-g2-2Hk" firstAttribute="top" secondItem="jf0-Eq-pQG" secondAttribute="top" constant="35" id="EuG-nI-Rwr"/>
+                <constraint firstItem="Gx3-g2-2Hk" firstAttribute="width" secondItem="zWB-dz-oF2" secondAttribute="width" id="TjC-1i-rzc"/>
+                <constraint firstItem="Gx3-g2-2Hk" firstAttribute="height" secondItem="zWB-dz-oF2" secondAttribute="height" id="YaF-Ju-YTe"/>
+                <constraint firstAttribute="trailing" secondItem="Gx3-g2-2Hk" secondAttribute="trailing" constant="40" id="aVP-fs-XSd"/>
+                <constraint firstItem="vMR-Yl-xqm" firstAttribute="leading" secondItem="zWB-dz-oF2" secondAttribute="trailing" constant="27" id="cCj-3f-rEC"/>
+                <constraint firstItem="vMR-Yl-xqm" firstAttribute="width" secondItem="zWB-dz-oF2" secondAttribute="width" id="eS5-sQ-Aww"/>
+                <constraint firstAttribute="trailing" secondItem="i8S-Fe-qUr" secondAttribute="trailing" constant="40" id="eqg-Ue-OK8"/>
+                <constraint firstItem="Gx3-g2-2Hk" firstAttribute="top" secondItem="vMR-Yl-xqm" secondAttribute="top" id="ifr-Ka-Tpp"/>
+                <constraint firstItem="Gx3-g2-2Hk" firstAttribute="top" secondItem="zWB-dz-oF2" secondAttribute="top" id="kaC-Li-YrS"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="zlF-AK-END"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="btn_closeissue_fixe_nor" width="110" height="110"/>
+        <image name="btn_closeissue_limit_nor" width="110" height="110"/>
+        <image name="btn_closeissue_waive_nor" width="110" height="110"/>
+    </resources>
+</document>

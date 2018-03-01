@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="IMSIssueCell" rowHeight="70" id="w6q-JP-UIv" customClass="ImsCell" customModule="IMS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="w6q-JP-UIv" id="6sM-jL-pgH">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="69.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_issue_prioP1" translatesAutoresizingMaskIntoConstraints="NO" id="nsi-Xx-Ngf">
+                        <rect key="frame" x="32" y="12" width="30" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="D1A-KJ-1K4"/>
+                            <constraint firstAttribute="width" constant="30" id="bTO-uf-VOO"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#482800" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="toa-DR-ft4">
+                        <rect key="frame" x="21" y="49" width="49" height="14"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.23921568630000001" green="0.25490196079999999" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11:40 AM" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Btb-iX-BbA">
+                        <rect key="frame" x="248" y="12" width="56" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="XwR-GP-8Mu"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.50588235290000005" green="0.53333333329999999" blue="0.58431372550000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[NPI 732PR] System shows BSOD &quot;0x116&quot; about NV driver during 3DMark Vant ..." lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3bx-Ld-LYW">
+                        <rect key="frame" x="82" y="23" width="194" height="45"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.50588235290000005" green="0.53333333329999999" blue="0.58431372550000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NAI-5v-4iv">
+                        <rect key="frame" x="284" y="41" width="17" height="16"/>
+                        <color key="backgroundColor" red="0.12941176469999999" green="0.58823529409999997" blue="0.95294117649999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="17" id="VdZ-EG-wNf"/>
+                            <constraint firstAttribute="height" constant="16" id="aJE-bK-GZq"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="9"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="MS-1783WT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vua-Go-QMx">
+                        <rect key="frame" x="82" y="12" width="146" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.23921568630000001" green="0.25490196079999999" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="toa-DR-ft4" firstAttribute="top" secondItem="nsi-Xx-Ngf" secondAttribute="bottom" constant="12" id="0j8-mg-IIT"/>
+                    <constraint firstItem="NAI-5v-4iv" firstAttribute="top" secondItem="Btb-iX-BbA" secondAttribute="bottom" constant="8" symbolic="YES" id="9eg-j4-Bya"/>
+                    <constraint firstItem="Btb-iX-BbA" firstAttribute="leading" secondItem="vua-Go-QMx" secondAttribute="trailing" constant="20" id="CWa-FA-O90"/>
+                    <constraint firstItem="3bx-Ld-LYW" firstAttribute="top" secondItem="6sM-jL-pgH" secondAttribute="topMargin" constant="12" id="Euz-Nu-flq"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Btb-iX-BbA" secondAttribute="trailing" id="bAh-yO-DSt"/>
+                    <constraint firstItem="NAI-5v-4iv" firstAttribute="leading" secondItem="3bx-Ld-LYW" secondAttribute="trailing" constant="8" id="dJp-jb-GXL"/>
+                    <constraint firstItem="vua-Go-QMx" firstAttribute="leading" secondItem="6sM-jL-pgH" secondAttribute="leadingMargin" constant="66" id="eDb-im-PrQ"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="3bx-Ld-LYW" secondAttribute="bottom" constant="-9" id="hsb-hp-agP"/>
+                    <constraint firstItem="nsi-Xx-Ngf" firstAttribute="leading" secondItem="6sM-jL-pgH" secondAttribute="leadingMargin" constant="16" id="iSm-CL-Sv8"/>
+                    <constraint firstItem="3bx-Ld-LYW" firstAttribute="leading" secondItem="toa-DR-ft4" secondAttribute="trailing" constant="12" id="pSQ-Qx-Hsg"/>
+                    <constraint firstItem="nsi-Xx-Ngf" firstAttribute="top" secondItem="6sM-jL-pgH" secondAttribute="topMargin" constant="1" id="r80-5m-5nD"/>
+                    <constraint firstItem="3bx-Ld-LYW" firstAttribute="leading" secondItem="6sM-jL-pgH" secondAttribute="leadingMargin" constant="66" id="v4V-7g-5cX"/>
+                    <constraint firstItem="vua-Go-QMx" firstAttribute="top" secondItem="6sM-jL-pgH" secondAttribute="topMargin" constant="1" id="wGg-bz-Joj"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="NAI-5v-4iv" secondAttribute="trailing" constant="3" id="whs-vz-q2g"/>
+                    <constraint firstItem="Btb-iX-BbA" firstAttribute="firstBaseline" secondItem="vua-Go-QMx" secondAttribute="firstBaseline" id="xTm-in-S0c"/>
+                    <constraint firstItem="Btb-iX-BbA" firstAttribute="baseline" secondItem="vua-Go-QMx" secondAttribute="baseline" id="xoC-d7-vgK"/>
+                    <constraint firstItem="toa-DR-ft4" firstAttribute="leading" secondItem="6sM-jL-pgH" secondAttribute="leadingMargin" constant="5" id="yiL-Nm-KYn"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="ImgPriority" destination="nsi-Xx-Ngf" id="8Vk-0Q-zUa"/>
+                <outlet property="lbl_Issue_Date" destination="Btb-iX-BbA" id="Kna-5q-TsX"/>
+                <outlet property="lbl_Issue_No" destination="toa-DR-ft4" id="M4r-YD-oXU"/>
+                <outlet property="lbl_Issue_Subject" destination="3bx-Ld-LYW" id="aJ5-YB-O2H"/>
+                <outlet property="lbl_Project_Name" destination="vua-Go-QMx" id="fn8-YQ-Jz8"/>
+                <outlet property="lbl_WorkNoteCount" destination="NAI-5v-4iv" id="3Dr-8W-7wv"/>
+            </connections>
+            <point key="canvasLocation" x="276" y="353"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_issue_prioP1" width="30" height="25"/>
+    </resources>
+</document>
