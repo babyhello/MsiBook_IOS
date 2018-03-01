@@ -1,0 +1,6 @@
+framework module Pods_MsiBook_IOS {
+  umbrella header "Pods-MsiBook_IOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

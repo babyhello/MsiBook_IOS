@@ -14,6 +14,13 @@
 		3C3F9B282047EA800090D7B5 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3F9B212047EA7F0090D7B5 /* Reachability.swift */; };
 		3C3F9B292047EA800090D7B5 /* AppClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3F9B222047EA7F0090D7B5 /* AppClass.swift */; };
 		3C3F9B2A2047EA800090D7B5 /* ModelMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3F9B232047EA7F0090D7B5 /* ModelMember.swift */; };
+		3C3F9B3E2047F06C0090D7B5 /* Notice ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3F9B3D2047F06C0090D7B5 /* Notice ViewController.swift */; };
+		3C3F9B422047F09A0090D7B5 /* CalendarDateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3F9B412047F09A0090D7B5 /* CalendarDateCell.swift */; };
+		3C3F9B442047F0AD0090D7B5 /* EqipmentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3F9B432047F0AD0090D7B5 /* EqipmentDetailViewController.swift */; };
+		3C3F9B462047F0CA0090D7B5 /* Lab-tabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3F9B452047F0CA0090D7B5 /* Lab-tabbarViewController.swift */; };
+		3C3F9B482047F0DA0090D7B5 /* LabDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3F9B472047F0DA0090D7B5 /* LabDetailViewController.swift */; };
+		3C3F9B4A2047F0ED0090D7B5 /* Machine ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3F9B492047F0ED0090D7B5 /* Machine ViewController.swift */; };
+		3C3F9B4C2047F0FD0090D7B5 /* ReservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3F9B4B2047F0FD0090D7B5 /* ReservationViewController.swift */; };
 		3CB5DE952047D22700CE7714 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB5DE942047D22700CE7714 /* AppDelegate.swift */; };
 		3CB5DE972047D22700CE7714 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB5DE962047D22700CE7714 /* ViewController.swift */; };
 		3CB5DE9A2047D22700CE7714 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5DE982047D22700CE7714 /* Main.storyboard */; };
@@ -104,6 +111,13 @@
 		3C3F9B212047EA7F0090D7B5 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		3C3F9B222047EA7F0090D7B5 /* AppClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppClass.swift; sourceTree = "<group>"; };
 		3C3F9B232047EA7F0090D7B5 /* ModelMember.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelMember.swift; sourceTree = "<group>"; };
+		3C3F9B3D2047F06C0090D7B5 /* Notice ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notice ViewController.swift"; sourceTree = "<group>"; };
+		3C3F9B412047F09A0090D7B5 /* CalendarDateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDateCell.swift; sourceTree = "<group>"; };
+		3C3F9B432047F0AD0090D7B5 /* EqipmentDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EqipmentDetailViewController.swift; sourceTree = "<group>"; };
+		3C3F9B452047F0CA0090D7B5 /* Lab-tabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lab-tabbarViewController.swift"; sourceTree = "<group>"; };
+		3C3F9B472047F0DA0090D7B5 /* LabDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabDetailViewController.swift; sourceTree = "<group>"; };
+		3C3F9B492047F0ED0090D7B5 /* Machine ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Machine ViewController.swift"; sourceTree = "<group>"; };
+		3C3F9B4B2047F0FD0090D7B5 /* ReservationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationViewController.swift; sourceTree = "<group>"; };
 		3CB5DE912047D22700CE7714 /* MsiBook_IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MsiBook_IOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CB5DE942047D22700CE7714 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CB5DE962047D22700CE7714 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -226,9 +240,40 @@
 			path = MsiBook_IOS/App_Library;
 			sourceTree = "<group>";
 		};
+		3C3F9B3C2047F0430090D7B5 /* Lab */ = {
+			isa = PBXGroup;
+			children = (
+				3C3F9B402047F0890090D7B5 /* Reservation */,
+				3C3F9B3F2047F07F0090D7B5 /* Taipei Lab */,
+				3C3F9B3D2047F06C0090D7B5 /* Notice ViewController.swift */,
+			);
+			path = Lab;
+			sourceTree = "<group>";
+		};
+		3C3F9B3F2047F07F0090D7B5 /* Taipei Lab */ = {
+			isa = PBXGroup;
+			children = (
+				3C3F9B412047F09A0090D7B5 /* CalendarDateCell.swift */,
+				3C3F9B432047F0AD0090D7B5 /* EqipmentDetailViewController.swift */,
+				3C3F9B452047F0CA0090D7B5 /* Lab-tabbarViewController.swift */,
+				3C3F9B472047F0DA0090D7B5 /* LabDetailViewController.swift */,
+				3C3F9B492047F0ED0090D7B5 /* Machine ViewController.swift */,
+				3C3F9B4B2047F0FD0090D7B5 /* ReservationViewController.swift */,
+			);
+			path = "Taipei Lab";
+			sourceTree = "<group>";
+		};
+		3C3F9B402047F0890090D7B5 /* Reservation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Reservation;
+			sourceTree = "<group>";
+		};
 		3CB5DE882047D22700CE7714 = {
 			isa = PBXGroup;
 			children = (
+				3C3F9B3C2047F0430090D7B5 /* Lab */,
 				3C3F9B1C2047EA7F0090D7B5 /* App_Library */,
 				3CB5DE932047D22700CE7714 /* MsiBook_IOS */,
 				3CB5DEAB2047D22700CE7714 /* MsiBook_IOSTests */,
@@ -715,6 +760,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CB5E0B72047E63800CE7714 /* NotificationTableViewController.swift in Sources */,
+				3C3F9B422047F09A0090D7B5 /* CalendarDateCell.swift in Sources */,
 				3CB5E0D32047E76A00CE7714 /* MessageViewController.swift in Sources */,
 				3C3F9B242047EA7F0090D7B5 /* URLEncodedString.swift in Sources */,
 				3CB5E0AB2047E59A00CE7714 /* ViewPhotoViewController.swift in Sources */,
@@ -722,11 +768,13 @@
 				3C3F9B282047EA800090D7B5 /* Reachability.swift in Sources */,
 				3CB5E07A2047DF7F00CE7714 /* IssueVoice.swift in Sources */,
 				3CB5E0BF2047E68E00CE7714 /* ProjectListTableViewController.swift in Sources */,
+				3C3F9B4C2047F0FD0090D7B5 /* ReservationViewController.swift in Sources */,
 				3CB5E0AD2047E5B300CE7714 /* IssueListTableViewController.swift in Sources */,
 				3CB5E0D92047E7B100CE7714 /* RegisterPasswordViewController.swift in Sources */,
 				3CB5E0B32047E60F00CE7714 /* SelectPriorityTableViewController.swift in Sources */,
 				3CB5E0942047E49800CE7714 /* DB_Member.swift in Sources */,
 				3CB5E0B92047E65500CE7714 /* ExpandTableProjectListViewController.swift in Sources */,
+				3C3F9B4A2047F0ED0090D7B5 /* Machine ViewController.swift in Sources */,
 				3CB5E0C32047E6B700CE7714 /* ProjectSpecTableViewController.swift in Sources */,
 				3CB5E0DF2047E7EA00CE7714 /* NotificationSettingTableViewController.swift in Sources */,
 				3CB5E0C72047E6DD00CE7714 /* WalkthroughContentViewController.swift in Sources */,
@@ -757,18 +805,22 @@
 				3CB5E0C92047E6EC00CE7714 /* WalkthroughPageViewController.swift in Sources */,
 				3C3F9B252047EA7F0090D7B5 /* AppUser.swift in Sources */,
 				3CB5DE9D2047D22700CE7714 /* MsiBook_IOS.xcdatamodeld in Sources */,
+				3C3F9B442047F0AD0090D7B5 /* EqipmentDetailViewController.swift in Sources */,
 				3CB5E0D12047E75000CE7714 /* ChatBubbleData.swift in Sources */,
 				3CB5E0BB2047E66900CE7714 /* PopUpProjectSelectViewController.swift in Sources */,
 				3CB5E0E12047E7FA00CE7714 /* SettingTableViewController.swift in Sources */,
+				3C3F9B462047F0CA0090D7B5 /* Lab-tabbarViewController.swift in Sources */,
 				3CB5E0C52047E6CA00CE7714 /* QRCodeScan.swift in Sources */,
 				3CB5E0E62047E84F00CE7714 /* MainPageViewController.swift in Sources */,
 				3CB5E0E32047E82A00CE7714 /* LoginViewController.swift in Sources */,
 				3CB5E0D72047E79900CE7714 /* CounterView.swift in Sources */,
+				3C3F9B482047F0DA0090D7B5 /* LabDetailViewController.swift in Sources */,
 				3CB5DE952047D22700CE7714 /* AppDelegate.swift in Sources */,
 				3CB5E07C2047E28500CE7714 /* LaunchScreenViewController.swift in Sources */,
 				3CB5E0802047E2A600CE7714 /* ProjectHeaderCellTableViewCell.swift in Sources */,
 				3CB5E0742047DF4900CE7714 /* ImsCell.swift in Sources */,
 				3CB5E0DD2047E7DA00CE7714 /* FontSettingTableViewController.swift in Sources */,
+				3C3F9B3E2047F06C0090D7B5 /* Notice ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

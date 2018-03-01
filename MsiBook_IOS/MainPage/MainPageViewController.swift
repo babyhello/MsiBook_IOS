@@ -17,6 +17,12 @@ class MainPageViewController: UIViewController {
         
         
     }
+    
+    @IBAction func Btn_Go_Lab(_ sender: Any) {
+        
+        self.performSegue(withIdentifier: "GolabList", sender: self)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -40,4 +46,3 @@ class MainPageViewController: UIViewController {
      */
     
 }
-
