@@ -151,7 +151,8 @@ class Lab_tabbarViewController: ButtonBarPagerTabStripViewController {
         }
         Alert.addAction(BoanAlert)
         
-//        gfghfghfghfgh
+//      hkhjjhkj  gfghfghfghfgh
+        
         self.present(Alert, animated: true, completion: nil)
     }
     
